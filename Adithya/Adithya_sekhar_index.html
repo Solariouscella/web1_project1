@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="aboutme">
+    <meta name="author" content="Adithya Sekhar">
+    <link rel="shortcut icon" type="image/png" href="images/penguin.png" />
+
+    <title>About me</title>
+
+    <style>
+        .sidebar {
+            padding: 20px;
+            backdrop-filter: blur(30px);
+            background-color: rgba(0, 0, 0, 0.4);
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        .details-button {
+            cursor: pointer;
+            padding: 10px;
+            font-size: 16px;
+            background-color: transparent;
+            color: #3498db;
+            border: 1px solid #3498db;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .left-side {
+            width: 45%;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        main {
+            display: flex;
+            justify-content: space-around;
+            flex-grow: 1;
+          }
+        .right-side {
+            width: 45%;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header,
+        footer {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .extended-details {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body style="background-color:#3498db;color: white; font-family: Arial, sans-serif;">
+    <header>
+        <h1 id="name"><u>Adithya Sekhar</u></h1>
+
+        <div style="float:left ">
+            <img src="images/me.jpg" alt="Hi! it is me :)" width="160px" height="190px" />
+        </div>
+        <div>
+            <h3 id="PROFESSIONAL_SUMMARY">&emsp; PROFESSIONAL SUMMARY:</h3>
+            <hr align="left" size="5" width="41.5%">
+            <p align="left">
+            
+                &emsp;I am a Responsible Linux Systems Engineer with a strong foundation in IT infrastructure,<br />
+                &emsp; passionate about Cybersecurity and DevOps. Proficient in designing, implementing, and managing <br />
+                &emsp; complex Linux-based infrastructures while adhering to industry best practices. As a proactive <br />
+                &emsp; learner, I stay abreast of the latest Cybersecurity trends, industry standards, and emerging threats <br />
+                &emsp; to continuously enhance my skill set. I am currently pursuing Master's in IT at The Kyoto College <br />
+                &emsp; of Graduate Studies for Informatics (KCGI), with an expected course duration from 2023 to 2025.<br /> &emsp;This
+                educational endeavor reflects my commitment to staying at the forefront of technology and acquiring <br />
+                &emsp; advanced knowledge and skills in the field.<br />
+                
+            </p>
+        </div>
+        <hr align="left" width="50%">
+        <br />
+    </header>
+    <font size="-1">Jump to : <a href="#TECHNICAL_SKILLS"> <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-box"><path
+                    d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" /><path
+                    d="m3.3 7 8.7 5 8.7-5" /><path d="M12 22V12" /></svg>TECHNICAL SKILLS</a> &emsp13; &emsp; 
+                    <a href="#Qualifications"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" class="lucide lucide-blinds"><path d="M3 3h18" /><path d="M20 7H8" /><path
+                        d="M20 11H8" /><path d="M10 19h10" /><path d="M8 15h12" /><path d="M4 3v14" /><circle
+                        cx="4" cy="19" r="2" /></svg>Qualifications </a> &emsp; 
+                    <a href="#Experience"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-kanban"><path d="M6 5v11" /><path d="M12 5v6" /><path d="M18 5v14" /></svg>Experience</a>&emsp13; &emsp;
+                    <a href="#EDUCATION"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>EDUCATION</a>&emsp13; &emsp;
+                    <a href="#PERSONAL PROFILE"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>PERSONAL PROFILE</a>&emsp13; &emsp;
+                    <a href="#Hobbies"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hourglass"><path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/><path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/></svg>Hobbies</a>&emsp13; &emsp;
+                    <a href="#Conect"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-qr-code"><rect width="5" height="5" x="3" y="3" rx="1"/><rect width="5" height="5" x="16" y="3" rx="1"/><rect width="5" height="5" x="3" y="16" rx="1"/><path d="M21 16h-3a2 2 0 0 0-2 2v3"/><path d="M21 21v.01"/><path d="M12 7v3a2 2 0 0 1-2 2H7"/><path d="M3 12h.01"/><path d="M12 3h.01"/><path d="M12 16v.01"/><path d="M16 12h1"/><path d="M21 12v.01"/><path d="M12 21v-1"/></svg>Connect</a>
+
+
+    </font>
+    <br /><br />
+    <main>
+
+        <div class="left-side">
+
+            <table>
+                <tr>
+                    <th>
+                        <h3 id="TECHNICAL_SKILLS" align="center"> <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-box"><path
+                                    d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" /><path
+                                    d="m3.3 7 8.7 5 8.7-5" /><path d="M12 22V12" /></svg>TECHNICAL SKILLS</h3>
+                        <hr align="left" size="5" width="106%">
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Operating System Management: Redhat Linux distributions, Kali Linux, Windows.<br />
+                            <br />Virtualization: VMware, KVM.<br /><br />
+                            Devops Tools: Work Experience in Gitlab and SCM and Redhat Satellite. <br />Basic knowledge
+                            in kubernates, Docker.<br /><br />
+                            Configuration Management Tools: Ansible, Puppet.<br /><br />
+                            Monitoring Tools: Grafana, Nagios, Icinga, Prometheus.<br /><br />
+                            Patching: Linux, Windows, Fortigate devices, Esxi, F5 APM.<br /><br />
+                            Vulnerability Assessment: Penetration testing and and vulnerability assessment using
+                            Tenable, cloud scanning tool.<br /><br />
+                            Scripting: Knowledge in bash and python.<br /><br />
+                            web programming  skills: HTML, css, javascript.<br /><br />
+                            Database Servers: MySQL, MariaDB.<br /><br />
+                            Webhosting Control panels: WHM/cPanel and Plesk.<br /><br />
+                            Cloud Platform: Work experience in Microsoft Azure.<br /><br />
+                            DNS Tools : DDI by EfficientIP , Powerdns service management.<br /><br />
+                            Firewall: FortiGate firewall management, Iptables.<br /><br />
+                            Web Server: Apache, Nginx.<br /><br />
+                            Managing Windows Active directory servers.<br /><br />
+                        </p>
+                        <font size="-1"> back to <a href="#name"> <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up"><path
+                                        d="m17 11-5-5-5 5" /><path d="m17 18-5-5-5 5" /></svg>
+                            </a></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3 id="Qualifications" align="center"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-blinds"><path d="M3 3h18"/><path d="M20 7H8"/><path d="M20 11H8"/><path d="M10 19h10"/><path d="M8 15h12"/><path d="M4 3v14"/><circle cx="4" cy="19" r="2"/></svg>Qualifications</h3>
+                        <hr align="left" size="5" width="106%">
+                        <ul>
+                            <li>Sysadmin and DevOps experience</li><br/>
+                            <li>Design experience</li><br/>
+                            <li>Web development, programming and database experience</li><br/>
+                            <li>Strong communication skills</li><br/>
+                            <br/>
+                            <font size="-1"> back to <a href="#name"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up"><path d="m17 11-5-5-5 5"/><path d="m17 18-5-5-5 5"/></svg>
+                            </a></font>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3 id="Experience" align="center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-kanban"><path d="M6 5v11"/><path d="M12 5v6"/><path d="M18 5v14"/></svg>Experience</h3>
+                        <hr align="left" size="5" width="106%">
+                        <ol>
+                            <div class="sidebar">
+                                <li>
+                                    <h4>Project Lead NOC, RM Education Solutions India Pvt Ltd.</h4>
+                                    <font size="-1">(06/2020 – 10/2023), Full time</font><br/> <br/>
+                                    <button class="details-button" onclick="toggleContent('extended-details-1')">Show Details</button>
+                                    <div id="extended-details-1" class="extended-details">
+                                        <ul>
+                                            <li>lead infrastructure development and operational projects.</li><br/>
+                                            <li>Ensured and managed Quality Assurance practices in the team.</li>
+                                            <li>Management and resolution of technical issues logged by customers.</li><br/>
+                                            <li>Building and manage Linux / Windows servers for infrastructure development.</li><br/>
+                                            <li>Deployed and managed squid filtering applications.</li><br/>
+                                            <li>build and manage Virtualization environment through VMware products like Vcenter, ESXI.</li><br/>
+                                            <li>Manage firewall traffic and context.</li><br/>
+                                            <li>Patch multi vendor infrastructure machine from vulnerability.</li><br/>                                    
+                                        </ul>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="sidebar">
+                                <li>
+                                    <h4>Linux Consultant, RM Education Solutions India Pvt Ltd.</h4>
+                                    <font size="-1">(01/2020 – 10/2020), Full time</font><br/> <br/>
+                                    <button class="details-button" onclick="toggleContent('extended-details-2')">Show Details</button>
+                                    <div id="extended-details-2" class="extended-details">
+                                        <ul>
+                                            <li>Collect KPI metrics, Graphs, Reports and send it across to stakeholders.</li><br/>
+                                            <li>Responding to monitoring alerts and ticketing system queue taking proactive and<br/>
+                                                reactive action to maintain stability of production, development, and testing<br/>
+                                                environments.</li><br/>
+                                            <li>Creating DNS records and managing configuration.</li><br/>
+                                            <li>Managing puppet modules through GIT and SCM.</li><br/>
+                                            <li>Performed Database migrations in Mysql and MariaDB servers.</li><br/>
+                                            <li>Webhosting server management and troubleshooting customer escalated issues<br/>
+                                                in webservers (WHM and Plesk).</li><br/>
+                                            <li>Utilized Ansible for configuration management, ensuring consistent and reliable <br/>
+                                                system configurations across multiple environments.</li><br/>                                    
+                                        </ul>
+                                    </div>
+                                </li>
+                            </div>
+                        </ol><br/>
+                        <font size="-1"> back to <a href="#name"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up"><path d="m17 11-5-5-5 5"/><path d="m17 18-5-5-5 5"/></svg>
+                    </td>
+                </tr>
+            </table>
+         </div>     
+         <div class="right-side">
+            <h3 id="EDUCATION" align="center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> EDUCATION</h3>
+            <hr align="left" size="5" width="102%">
+            <ul>
+                <li>
+                    <h4>B.Tech Computer Science and Engineering</h4><p>@TKM
+                        Institute of Technology, Karuvelil, Kollam, Kerala, India.<br/>
+                        APJ Abdul Kalam Technological University<br>
+                        Dates attended: june 2015 to 2019 May<br>
+                        CGPA: 6.69  </p>
+                </li>
+                <li>
+                    <h4>
+                        Twelfth grade 
+                    </h4>
+                    <p>
+                        @Standard Manna Memorial Public School,<br> Thattamala,
+                        Valathungal,Kollam, Kerala, India .<br>
+                        Dates attended: june 2014 to 2015 May<br>
+                        CBSE Board Percentage: 70.6
+                    </p>
+                </li>
+                <li>
+                    <h4>
+                        Tenth grade
+                    </h4>
+                    <p>
+                        @Sree Narayana Public School,<br>
+                        Vadakkevila, Kollam, Kerala , India.<br>
+                        Dates attended: june 2012 to 2013 May<br>
+                        CBSE Board CGPA: 8.8
+                    </p>
+                </li>
+            </ul>    
+            <font size="-1"> back to <a href="#name"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up"><path d="m17 11-5-5-5 5"/><path d="m17 18-5-5-5 5"/></svg>
+             </a></font>
+            <h3 id="PERSONAL PROFILE" align="center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>PERSONAL PROFILE</h3>
+            <hr align="left" size="5" width="102%">
+             <p><em> Email </em>:<a href="mailto:adisekhar201@gmail.com">adisekhar201@gmail.com </a><br><br>
+             <em> Gender:</em> Male. <br><br>
+             <em> Marital Status:</em> Single. <br><br>
+             <em> Address:</em>Green Heights 201, 104 Nishitakazawa-cho, Shichi-ku, Kita-ku, Kyoto,Japan<br>
+             Pin:603-8205. <br><iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3266.4374647376144!2d135.74608607575948!3d35.045800372799015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAyJzQ0LjkiTiAxMzXCsDQ0JzU1LjIiRQ!5e0!3m2!1sen!2sjp!4v1701142612827!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+             <em> Nationality:</em> Indian.<br><br>
+             <em><u>Languages:</u> </em><br/>
+             English &emsp;<progress value="70" max="100">80 %</progress><br>Malayalam&emsp;<progress value="70" max="100">90 %</progress> <br>Hindi&emsp;<progress value="60" max="100">90 %</progress><br>
+             </p>
+             <font size="-1"> back to <a href="#name"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up"><path d="m17 11-5-5-5 5"/><path d="m17 18-5-5-5 5"/></svg>
+             </a></font>
+             <h3 id="Hobbies" align="center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hourglass"><path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/><path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/></svg>Hobbies</h3>
+             <hr align="left" size="5" width="102%">
+             <details>
+             <Summary><b>Watching Anime</b></summary>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/d6qCbdXqsOs?si=sTreL_wtIDi8M937" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             </details>
+            <details>
+                <Summary><b> listening to songs</b></summary>
+                <audio controls>
+                    <source src="audio/Kun-Faaya-Kun(PagalWorld).mp3" type="audio/mpeg">
+                         Your browser does not support the audio element.
+                </audio>              
+            </details>    
+        </div>                   
+    </main>
+    <footer>
+        <h3 id="Conect"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-qr-code"><rect width="5" height="5" x="3" y="3" rx="1"/><rect width="5" height="5" x="16" y="3" rx="1"/><rect width="5" height="5" x="3" y="16" rx="1"/><path d="M21 16h-3a2 2 0 0 0-2 2v3"/><path d="M21 21v.01"/><path d="M12 7v3a2 2 0 0 1-2 2H7"/><path d="M3 12h.01"/><path d="M12 3h.01"/><path d="M12 16v.01"/><path d="M16 12h1"/><path d="M21 12v.01"/><path d="M12 21v-1"/></svg>Connect</h3>
+        <hr align="left" size="5">
+        <a href="https://www.linkedin.com/in/adithya-sekhar/" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg> LinkedIn</a> &emsp;&emsp;
+        <a href="https://twitter.com/SolariousCella" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg> twitter</a>&emsp;&emsp;
+        <a href="mailto:adisekhar201@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-at-sign"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg>Email</a> <br/><br/>
+
+    </footer>
+    <script>
+        function toggleContent(elementId) {
+            var contentElement = document.getElementById(elementId);
+            contentElement.style.display = (contentElement.style.display === 'none' || contentElement.style.display === '') ? 'block' : 'none';
+        }   
+    </script>
+</body>
+</html>
