@@ -17,5 +17,4 @@ The group profile page should look professional. Use <iframe> for google maps, y
 
 
 
-After creating a group profile page you need to upload your project folder in Github repository and create an online group profile. You will need to submit both the zipped source code and a github url link to your online group profile page
 
