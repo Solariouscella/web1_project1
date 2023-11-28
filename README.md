@@ -1,6 +1,8 @@
 # web1_project1
 This is a project created to submitas an assignment for web programming 1.
 
+Aim :familiarise html
+
 Assignment Content
 
 Students are required to work in groups (3-4 max) to create a group profile page using the HTML Tags covered in the lectures 1 to 5. The Group Profile page should highlight biography, hobbies, education qualification, work experiences, photos, address etc information of each members. Don't use dummy text.
