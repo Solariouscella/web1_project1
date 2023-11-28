@@ -13,7 +13,7 @@ You can create individual pages of members all linked to a main homepage or you 
 
 
 
-The group profile page should look professional. Use <iframe> for google maps, youtube videos, Use <table> for structuring your profile page, Use <video><audio> for embedding local media files to web page. Use text formatting tags, hyperlinks, list items, images etc. 
+The group profile page should look professional. Use <iframe> for google maps, youtube videos, Use <table> for structuring your profile page, Use video audio for embedding local media files to web page. Use text formatting tags, hyperlinks, list items, images etc. 
 
 
 
