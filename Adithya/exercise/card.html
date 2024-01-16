@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .cards-container {
+            display: flex;
+            justify-content: space-around;
+            max-width: 900px;
+            gap: 10px; /* Adjust the gap between cards */
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 40%;
+            border-radius: 5px;
+            margin: 10px;
+            transition: box-shadow 0.3s ease-in-out;
+            position: relative;
+        }
+
+        img {
+            border-radius: 10px 10px 0 0;
+            width: 100%;
+            height: auto;
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+
+        h3 {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+            margin: 0;
+        }
+        
+    </style>
+    <title>Cards</title>
+</head>
+<body>
+
+    <div class="cards-container">
+        <div id="myCard" class="card" >
+            <h3><b>Red Hat</b></h3>
+            <img src="img/Redhat-Logo.png">
+
+            <div class="container">
+                <p id="content1">Red Hat Enterprise Linux provides more than an operating system—it also connects you to Red Hat’s extensive hardware, software, and cloud partner ecosystem, and comes with 24x7 support. Red Hat Enterprise Linux 9.3 is our latest release, but with access to all supported versions and a 10 year life cycle, you can upgrade on your schedule and adopt new features when needed.</p>
+            </div>
+        </div>
+
+        <div id="myCard1" class="card">
+            <h3><b>Ubuntu</b></h3>
+            <img src="img/ubuntu-logo.jpg">
+
+            <div class="container">
+                <p id="content2">Stay up-to-date with regular updates and upgrades Long-term support (LTS) releases of Ubuntu Server receive standard security updates for around 2,500 packages in the Ubuntu Main repository for five years by default. Every six months, interim releases bring new features, while hardware enablement updates add support for the latest machines to all supported LTS releases.</p>
+            </div>
+        </div>
+
+        <div id="myCard2" class="card">
+            <h3><b>SUSE Linux Enterprise Server</b></h3>
+            <img src="img/suselinux.png">
+
+            <div class="container">
+                <p id="content3">SUSE Linux Enterprise Server SUSE Manager's configuration, auditing, and automation features make it easy to ensure compliance with internal security policies and external regulations. Includes APIs and services to create applications that can work with a wide range of architectures, servers, storage, and networks.</p>
+            </div>
+        </div>
+
+       
+
+</body>
+</html>
